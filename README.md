@@ -1,4 +1,4 @@
-
+![Build Status](https://travis-ci.org/xpepermint/merkle-tree-proof.svg?branch=master)&nbsp;[![NPM Version](https://badge.fury.io/js/merkle-tree-proof.svg)](https://badge.fury.io/js/merkle-tree-proof)
 
 This is a merkle tree proof implementation for calculating merkle root hash from an array of values and exposing merkle leafs. It's a lightweight open source package for the **server** and **browser** (using module bundler), written with [TypeScript](https://www.typescriptlang.org). The source code is available on [GitHub](https://github.com/xpepermint/merkle-tree-proof) where you can also find our [issue tracker](https://github.com/xpepermint/merkle-tree-proof/issues).
 
