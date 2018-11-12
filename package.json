@@ -1,0 +1,27 @@
+{
+  "name": "merkle-tree-proof",
+  "version": "0.1.0",
+  "description": "Merkle tree proof implementation",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx hayspec test"
+  },
+  "hayspec": {
+    "require": [
+      "ts-node/register"
+    ],
+    "match": [
+      "./src/tests/**/*.test.ts"
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@hayspec/cli": "^0.7.6",
+    "@hayspec/spec": "^0.7.6",
+    "@types/node": "^10.12.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.1"
+  }
+}
